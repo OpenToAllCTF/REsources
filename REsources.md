@@ -1,5 +1,5 @@
 # OpenToAll REsources
-![OpenToAll Team Logo](./Images/practical_malware_analysis_cover.png)
+![OpenToAll Team Logo](./images/ota.png)
 
 ## REsources
 
