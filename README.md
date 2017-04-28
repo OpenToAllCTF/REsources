@@ -59,7 +59,7 @@
 
   - Blogs & Articles
      - OpenToAll
-     - [alessandrogario](https://alessandrogar.io/)
+        - [alessandrogario](https://alessandrogar.io/)
      - [how to write a crackme for a ctf](https://www.pelock.com/articles/how-to-write-a-crackme-for-a-ctf-competition)
      - [gynvael](http://gynvael.coldwind.pl/?blog=1)
      - [rolfrolles](http://www.msreverseengineering.com/blog/)
