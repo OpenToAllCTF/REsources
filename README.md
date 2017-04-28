@@ -86,7 +86,7 @@
         - [miasm blog](http://www.miasm.re/blog/)
         - [deobfuscation](http://blog.quarkslab.com/deobfuscation-recovering-an-ollvm-protected-program.html)
      - z3
-      - [z3](https://github.com/Z3Prover/z3)
+        - [z3](https://github.com/Z3Prover/z3)
      - Pin
         - [Pin](https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool)
         - https://www.aldeid.com/wiki/Pin
