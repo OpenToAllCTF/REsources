@@ -46,7 +46,7 @@
     - [crackmes.de 2015 archive](https://tuts4you.com/download.php?view.3152)
         - 2015 folder is grouped by difficulty, and contains solutions
     - [RPISEC MBE](https://github.com/RPISEC/MBE) (First few lectures focus on RE)
-            - [Challenges and Lecture Slides](http://security.cs.rpi.edu/courses/binexp-spring2015/)
+        - [Challenges and Lecture Slides](http://security.cs.rpi.edu/courses/binexp-spring2015/)
 
   **Forums, Blogs, Repos, Wikis**
   - Important Sites
