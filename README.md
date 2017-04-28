@@ -26,12 +26,11 @@
         - [Challenges - pw is malware](http://flare-on.com/files/2015_FLAREOn_Challenges.zip)
         - Solutions
             - [Official](https://www.fireeye.com/blog/threat-research/2015/09/flare-on_challenges.html)
-            - angr
     - 2016
         - [Challenges - pw is flare](http://flare-on.com/files/Flare-On3_Challenges.zip)
         - Solutions
             - [Official](https://www.fireeye.com/blog/threat-research/2016/11/2016_flare-on_challe.html)
-            - rogario
+            - [alessandrogario's smokestack solution](https://alessandrogar.io/post/flare-on-challenge-2016-smokestack/)
     - 2017
         - TBA
 
@@ -39,60 +38,59 @@
     - 2016
         - [Challenges](http://labyrenth.com/archive/challenges.html)
         - Solutions
-            [Official](http://researchcenter.paloaltonetworks.com/tag/labyrenth/)
+            - [Official](http://researchcenter.paloaltonetworks.com/tag/labyrenth/)
     - 2017
         - **June 9, 2017**
 
   - Crackmes
     - [crackmes.de 2015 archive](https://tuts4you.com/download.php?view.3152)
         - 2015 folder is grouped by difficulty, and contains solutions
-    - [RPISEC MBE](https://github.com/RPISEC/MBE)
-        - First few lectures focus on RE
+    - [RPISEC MBE](https://github.com/RPISEC/MBE) (First few lectures focus on RE)
             - [Challenges and Lecture Slides](http://security.cs.rpi.edu/courses/binexp-spring2015/)
 
   **Forums, Blogs, Repos, Wikis**
   - Important Sites
-   - [tuts4you - Articles, forums, downloads, papers, etc.] https://tuts4you.com/
-   - [openrce] http://www.openrce.org/articles/
+     - [tuts4you - Articles, forums, downloads, papers, etc.](https://tuts4you.com/)
+     - [openrce](http://www.openrce.org/articles/)
 
   - Wikis
-    - [aldeid](https://www.aldeid.com)
-    - [yobi](http://wiki.yobi.be/wiki/Reverse-Engineering)
+     - [aldeid](https://www.aldeid.com)
+     - [yobi](http://wiki.yobi.be/wiki/Reverse-Engineering)
 
   - Blogs & Articles
-    - OpenToAll
-      - [alessandrogario](https://alessandrogar.io/)
-    - [how to write a crackme for a ctf (https://www.pelock.com/articles/how-to-write-a-crackme-for-a-ctf-competition)
-    - [gynvael](http://gynvael.coldwind.pl/?blog=1)
-    - [rolfrolles](http://www.msreverseengineering.com/blog/)
+     - OpenToAll
+     - [alessandrogario](https://alessandrogar.io/)
+     - [how to write a crackme for a ctf](https://www.pelock.com/articles/how-to-write-a-crackme-for-a-ctf-competition)
+     - [gynvael](http://gynvael.coldwind.pl/?blog=1)
+     - [rolfrolles](http://www.msreverseengineering.com/blog/)
   - Repos
-    - [Literature Review](https://github.com/REMath/literature_review/)
-    - [List of REsources](https://github.com/wtsxDev/reverse-engineering)
+     - [Literature Review](https://github.com/REMath/literature_review/)
+     - [List of REsources](https://github.com/wtsxDev/reverse-engineering)
   - Books
-    - [Beginner's guide to IDA Python](https://leanpub.com/IDAPython-Book)
-    - [Anti-RE book  https://github.com/antire-book/antire_book
+     - [Beginner's guide to IDA Python](https://leanpub.com/IDAPython-Book)
+     - [Anti-RE book](https://github.com/antire-book/antire_book)
 
-  ** IDA Plugins**
-    - [IDA Plugins Contest](https://www.hex-rays.com/contests/)
-    - [IDA Plugins List](https://github.com/onethawt/idaplugins-list)
+  **IDA Plugins**
+     - [IDA Plugins Contest](https://www.hex-rays.com/contests/)
+     - [IDA Plugins List](https://github.com/onethawt/idaplugins-list)
 
-  ** Fun talks **
-    - [Repsych: Psychological Warfare in Reverse Engineering](https://www.youtube.com/watch?v=HlUe0TUHOIc)
+  **Interesting talks**
+     - [Repsych: Psychological Warfare in Reverse Engineering](https://www.youtube.com/watch?v=HlUe0TUHOIc)
 
-  ** Frameworks and Tools**
-    - angr
+  **Frameworks and Tools**
+     - angr
         - [angr](http://angr.io/)
-    - metasm
-        -[metasm](https://github.com/jjyg/metasm/)
-    - miasm
+     - metasm
+        - [metasm](https://github.com/jjyg/metasm/)
+     - miasm
         - [miasm blog](http://www.miasm.re/blog/)
-        - [deobfuscation] (http://blog.quarkslab.com/deobfuscation-recovering-an-ollvm-protected-program.html)
-    - z3
+        - [deobfuscation](http://blog.quarkslab.com/deobfuscation-recovering-an-ollvm-protected-program.html)
+     - z3
       - [z3](https://github.com/Z3Prover/z3)
-    - Pin
+     - Pin
         - [Pin](https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool)
         - https://www.aldeid.com/wiki/Pin
         - https://www.aldeid.com/wiki/Pintool2
 
-  ** Papers **
-    - [Unpacking Virtualization Obfuscators](https://www.usenix.org/legacy/events/woot09/tech/full_papers/rolles.pdf)
+  **Papers**
+     - [Unpacking Virtualization Obfuscators](https://www.usenix.org/legacy/events/woot09/tech/full_papers/rolles.pdf)
