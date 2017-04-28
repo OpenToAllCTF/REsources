@@ -36,7 +36,7 @@
 
   - [LabyREnth](http://labyrenth.com/)
     - 2016
-        - [Challenges](http://labyrenth.com/archive/challenges.html)
+        - [Challenges - pw is infected](http://labyrenth.com/archive/challenges.html)
         - Solutions
             - [Official](http://researchcenter.paloaltonetworks.com/tag/labyrenth/)
     - 2017
