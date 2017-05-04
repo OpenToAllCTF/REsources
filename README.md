@@ -58,8 +58,9 @@
      - [yobi](http://wiki.yobi.be/wiki/Reverse-Engineering)
 
   - Blogs & Articles
-     - OpenToAll
+     - OpenToAll RE
         - [alessandrogario](https://alessandrogar.io/)
+        - [Grazfather](http://grazfather.github.io/)
      - [how to write a crackme for a ctf](https://www.pelock.com/articles/how-to-write-a-crackme-for-a-ctf-competition)
      - [gynvael](http://gynvael.coldwind.pl/?blog=1)
      - [rolfrolles](http://www.msreverseengineering.com/blog/)
