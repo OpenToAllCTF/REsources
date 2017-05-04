@@ -47,6 +47,7 @@
         - 2015 folder is grouped by difficulty, and contains solutions
     - [RPISEC MBE](https://github.com/RPISEC/MBE) (First few lectures focus on RE)
         - [Challenges and Lecture Slides](http://security.cs.rpi.edu/courses/binexp-spring2015/)
+    - https://reversing.ctfd.io/challenges
 
   **Forums, Blogs, Repos, Wikis**
   - Important Sites
