@@ -12,6 +12,7 @@
   - [IDA Pro Book 2nd Edition](https://www.nostarch.com/idapro2.htm)
   - [Gray Hat Python](https://www.nostarch.com/ghpython.htm)
   - [Practical Reverse Engineering](https://www.amazon.ca/Practical-Reverse-Engineering-Reversing-Obfuscation/dp/1118787315)
+  - [Art of Assembly Language](http://flint.cs.yale.edu/cs422/doc/art-of-asm/pdf/)
 
 - **Practice**
   - [RPISEC Malware](https://github.com/RPISEC/Malware/)
@@ -71,6 +72,7 @@
   - Books
      - [Beginner's guide to IDA Python](https://leanpub.com/IDAPython-Book)
      - [Anti-RE book](https://github.com/antire-book/antire_book)
+     - [xchg rax, rax](https://www.xorpd.net/pages/xchg_rax/snip_00.html)
 
   **IDA Plugins**
      - [IDA Plugins Contest](https://www.hex-rays.com/contests/)
@@ -93,6 +95,10 @@
         - [Pin](https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool)
         - https://www.aldeid.com/wiki/Pin
         - https://www.aldeid.com/wiki/Pintool2
+     - Online Disassemblers/Compilers
+        - https://www.onlinedisassembler.com/static/home/
+        - https://defuse.ca/online-x86-assembler.htm#disassembly
+        - http://godbolt.org/
 
   **Papers**
      - [Unpacking Virtualization Obfuscators](https://www.usenix.org/legacy/events/woot09/tech/full_papers/rolles.pdf)
