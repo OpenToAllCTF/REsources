@@ -70,6 +70,7 @@
   - Repos
      - [Literature Review](https://github.com/REMath/literature_review/)
      - [List of REsources](https://github.com/wtsxDev/reverse-engineering)
+     - [IDAPython](https://github.com/idapython/src)
   - Books
      - [Beginner's guide to IDA Python](https://leanpub.com/IDAPython-Book)
      - [Anti-RE book](https://github.com/antire-book/antire_book)
