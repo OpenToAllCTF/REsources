@@ -5,6 +5,7 @@
 
 - **Foundations**
   - [C Boot Camp](http://gribblelab.org/CBootCamp/)
+  - [Introductory Intel x86: Architecture, Assembly, Applications, & Alliteration](http://opensecuritytraining.info/IntroX86.html)
   - [Hacking - The Art of Exploitation](https://www.nostarch.com/hacking2.htm)
   - [Practical Malware Analysis](https://www.nostarch.com/malware)
   - [Secrets of Reverse Engineering](https://www.amazon.ca/Reversing-Secrets-Engineering-Eldad-Eilam/dp/0764574817)
