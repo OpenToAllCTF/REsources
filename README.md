@@ -56,6 +56,7 @@
   - Important Sites
      - [tuts4you - Articles, forums, downloads, papers, etc.](https://tuts4you.com/)
      - [openrce](http://www.openrce.org/articles/)
+     - [Compiler Explorer](https://godbolt.org/)
 
   - Wikis
      - [aldeid](https://www.aldeid.com)
