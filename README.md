@@ -38,13 +38,9 @@
         - TBA
 
   - [LabyREnth](http://labyrenth.com/)
-    - 2016
-        - [Challenges - pw is infected](http://labyrenth.com/archive/challenges.html)
-        - Solutions
-            - [Official](http://researchcenter.paloaltonetworks.com/tag/labyrenth/)
-    - 2017
-        - **June 9, 2017**
-
+    - [2016](/binaries/labyrenth/2016/)
+    - [2017](/binaries/labyrenth/2017)
+    
   - Crackmes
     - [crackmes.de 2015 archive](https://tuts4you.com/download.php?view.3152)
         - 2015 folder is grouped by difficulty, and contains solutions
