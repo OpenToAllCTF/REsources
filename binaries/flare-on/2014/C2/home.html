@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>The FLARE On Challenge</title>
+    <link rel="stylesheet" type="text/css" href="http://bootswatch.com/lumen/bootstrap.min.css">
+    <style type="text/css">
+        #counter {
+            width: 210px;
+            height: 80px;
+            font-size: 35px;
+        }
+        .points {
+            float: left;
+            width: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 70px;
+            text-shadow: none;
+        }
+        .position {
+            position: relative;
+            float: left;
+            width: 15px;
+            height: 92px;
+            margin: 8px 0 0 0;
+        }
+        .digit {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .boxName {
+            float: left;
+            width: 30px;
+            margin: 45px 0 0 -28px;
+            font-size: 12px;
+            color: #a6a6a6;
+        }
+        .Hours { margin-left: 5px; }
+        .Seconds { margin-left: 2px; }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Title and Nav -->
+        <img src="img/flare-on.png">
+        <ul class="list-inline">
+            <li><a onclick="display_me('overview_div')">OVERVIEW</a></li>
+            <li><a onclick="display_me('directions_div')">INSTRUCTIONS</a></li>
+            <li><a onclick="display_me('advice_div')">RESOURCES</a></li>
+            <li><a onclick="display_me('warnings_div')">TERMS & CONDITIONS</a></li>
+            <li><a onclick="display_me('solved_div')">FIRST TO SOLVE</a></li>
+        </ul>
+
+        <br><br>
+
+        <div class="row">
+          <div class="col-md-6">
+
+              <div id="overview_div" style="display:block">
+                  <p>The FireEye Labs Advanced Reverse Engineering (FLARE) team is an elite technical
+                     group of malware analysts, researchers, and hackers. We are looking to hire smart
+                     individuals interested in reverse engineering. We have created this series of binary
+                     challenges to test your skills. We encourage anyone to participate and practice their
+                     skills while having fun!</p>
+
+                  <p>At launch, a download link for the first challenge will show up here. The first 
+                     challenge is a self-extracting zip file that requires you accept our End User 
+                     License Agreement (EULA) before continuing.</p>
+
+              </div>
+
+              <div id="directions_div" style="display:none">
+                  <p>It’s simple: Analyze the sample, find the key.</p>
+                  <p>Each key is an email address, simply email the email address and it will respond with the next binary challenge.</p>
+                  <p>After completing the final challenge, you’ll win a prize and be contacted by a FLARE team member.</p>
+              </div>
+
+              <div id="warnings_div" style="display:none">
+                  <p>WARNING! Some of these challenges may be malicious.</p>
+                  <p>Exercise extreme caution when executing unknown code.</p>
+                  <p>Be safe and perform the analysis inside of a virtual machine.</p>
+                  <p>The <a href="">EULA</a> describes the terms and conditions of these binaries.</p>
+              </div>
+
+              <div id="advice_div" style="display:none">
+                  <p>There are tons of tools out there to aid you in your analysis. Here are some suggestions:
+                      <ul>
+                          <li><a href="https://www.hex-rays.com/products/ida/">IDA Pro</a></li>
+                          <li><a href="http://www.ollydbg.de/">Ollydbg</a></li>
+                          <li><a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff551063(v=vs.85).aspx">Windbg</a></li>
+                          <li><a href="http://www.ntcore.com/exsuite.php">CFF Explorer</a></li>
+                          <li><a href="http://www.hexworkshop.com/">Hex Workshop</a></li>
+                          <li><a href="http://ilspy.net/">ILSpy</a></li>
+                      </ul>
+                  </p>
+                  <p>There are also many books out there that could help you. Here are some suggestions:
+                      <ul>
+                          <li><a href="http://www.amazon.com/Practical-Malware-Analysis-Dissecting-Malicious/dp/1593272901">Practical Malware Analysis</a></li>
+                          <li><a href="http://www.amazon.com/IDA-Pro-Book-Unofficial-Disassembler/dp/1593272898">IDA Pro Book</a></li>
+                          <li><a href="http://www.amazon.com/Practical-Reverse-Engineering-Reversing-Obfuscation-ebook/dp/B00IA22R2Y">Practical Reverse Engineering</a></li>
+                          <li><a href="http://www.amazon.com/x86-Instruction-Set-Architecture-Shanley/dp/0977087859">x86 Instruction Set Architecture</a></li>
+                      </ul>
+                  </p>
+              </div>
+              <div id="solved_div" style="display:none">
+                  <p>Congratulations to all those that completed the FLARE On challenge!</p>
+                  <ol>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                  </ol>
+              </div>
+
+
+          </div>
+          <div class="col-md-6" style="text-align:center">
+
+                <div style="display:inline-block;"><h3 style="margin-top:0px;margin-bottom:0px;">Launch Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></div><br/>
+                <div style="display:inline-block" id="counter"></div>
+
+          </div>
+        </div>
+
+    </div>
+
+    <script>
+        function display_me(show_me) {
+            document.getElementById('overview_div').style.display = 'none';
+            document.getElementById('directions_div').style.display = 'none';
+            document.getElementById('warnings_div').style.display = 'none';
+            document.getElementById('advice_div').style.display = 'none';
+            document.getElementById('solved_div').style.display = 'none';
+            document.getElementById(show_me).style.display = 'block';
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript">!function(s){function a(a){a.addClass("countdownHolder"),s.each(["Days","Hours","Minutes","Seconds"],function(t){var n;n="Days"==this?"DAYS":"Hours"==this?"HRS":"Minutes"==this?"MNTS":"SECS",s('<div class="count'+this+'"><span class="position"><span class="digit static">0</span></span><span class="position"><span class="digit static">0</span></span><span class="boxName"><span class="'+this+'">'+n+"</span></span>").appendTo(a),"Seconds"!=this&&a.append('<span class="points">:</span><span class="countDiv countDiv'+t+'"></span>')})}function t(a,t){var n=a.find(".digit");if(n.is(":animated"))return!1;if(a.data("digit")==t)return!1;a.data("digit",t);var i=s("<span>",{"class":"digit",css:{top:0,opacity:0},html:t});n.before(i).removeClass("static").animate({top:0,opacity:0},"fast",function(){n.remove()}),i.delay(100).animate({top:0,opacity:1},"fast",function(){i.addClass("static")})}var n=86400,i=3600,o=60;s.fn.countdown=function(c){function e(s,a,n){t(r.eq(s),Math.floor(n/10)%10),t(r.eq(a),n%10)}var p,d,l,u,f,r,h=s.extend({callback:function(){},timestamp:0},c);return a(this,h),r=this.find(".position"),function m(){p=Math.floor((h.timestamp-new Date)/1e3),0>p&&(p=0),d=Math.floor(p/n),e(0,1,d),p-=d*n,l=Math.floor(p/i),e(2,3,l),p-=l*i,u=Math.floor(p/o),e(4,5,u),p-=u*o,f=p,e(6,7,f),h.callback(d,l,u,f),setTimeout(m,1e3)}(),this}}(jQuery);</script><?php include "img/flare-on.png" ?>
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#counter').countdown({
+                timestamp : new Date(2014,6,7,4,0,0,0)
+            });
+        });
+    </script>
+
+
+
+</body>
+</html>
