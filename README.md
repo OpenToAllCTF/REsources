@@ -96,10 +96,11 @@
         - [Pin](https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool)
         - https://www.aldeid.com/wiki/Pin
         - https://www.aldeid.com/wiki/Pintool2
-     - Online Disassemblers/Compilers
+     - Online Disassemblers/Compilers/Emulators
         - https://www.onlinedisassembler.com/static/home/
         - https://defuse.ca/online-x86-assembler.htm#disassembly
         - http://godbolt.org/
+        - http://carlosrafaelgn.com.br/asm86/
 
   **Papers**
      - [Unpacking Virtualization Obfuscators](https://www.usenix.org/legacy/events/woot09/tech/full_papers/rolles.pdf)
